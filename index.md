@@ -67,3 +67,7 @@ Additionally there is a specific repository that lists most of the papers and
 articles written on Copilot:
 [copilot-discussion](https://github.com/Copilot-Language/copilot-discussion).
 
+
+## Acknowledgements
+We are grateful for NASA Contract NNL08AD13T to Galois, Inc. and the National
+Institute of Aerospace, which partially supported this work.

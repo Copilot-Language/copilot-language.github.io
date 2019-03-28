@@ -27,3 +27,43 @@ Alternatively one can download and install it from the repositories as well:
 
 Typically one would only go this route to develop Copilot, for regular users
 the cabal method is highly recommended.
+
+
+## Structure and Sources
+Apart from the Copilot [Github project
+page](https://github.com/Copilot-Language), there are a number of sub projects
+that make up Copilot:
+
+- `Copilot`: The main Copilot package, to which all others are a dependency.
+  One should install this one to install Copilot.
+  ([Sources](https://github.com/Copilot-Language/Copilot))
+  ([Hackage](https://hackage.haskell.org/package/copilot))
+
+- `copilot-core`: The core language, which efficiently represents Copilot
+  expressions. The core is only of interest to implementers wishing to add a
+  new back-end to Copilot.
+  ([Sources](https://github.com/Copilot-Language/copilot-core))
+  ([Hackage](https://hackage.haskell.org/package/copilot-core))
+
+- `copilot-language`: The front-end of Copilot defining the user language. A
+  user of Copilot typically interacts with this library.
+  ([Sources](https://github.com/Copilot-Language/copilot-language))
+  ([Hackage](https://hackage.haskell.org/package/copilot-language))
+
+- `copilot-libraries`: User-supplied libraries for Copilot, including
+  linear-temporal logic, fault-tolerant voting, regular expressions, etc.
+  ([Sources](https://github.com/Copilot-Language/copilot-libraries))
+  ([Hackage](https://hackage.haskell.org/package/copilot-libraries))
+
+- `copilot-cbackend`: A backend writing hard realtime C99 code. It writes
+  readable output and ensures the output code is constant in memory and time.
+  ([Sources](https://github.com/Copilot-Language/copilot-core))
+
+- `copilot-theorem`: Some tools to prove properties on Copilot.
+  ([Sources](https://github.com/Copilot-Language/copilot-theorem))
+  ([Hackage](https://hackage.haskell.org/package/copilot-theorem))
+
+Additionally there is a specific repository that lists most of the papers and
+articles written on Copilot:
+[copilot-discussion](https://github.com/Copilot-Language/copilot-discussion).
+

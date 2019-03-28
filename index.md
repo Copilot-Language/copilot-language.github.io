@@ -1,4 +1,4 @@
-# Copilot runtime verification framework
+## Introduction
 Copilot is a runtime verification framework written in Haskell. It allows the
 user to write programs in a simple but powerful way using a stream-based
 approach.

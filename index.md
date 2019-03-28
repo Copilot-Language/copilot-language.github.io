@@ -29,6 +29,14 @@ Typically one would only go this route to develop Copilot, for regular users
 the cabal method is highly recommended.
 
 
+## Documentation
+A manual to Copilot can be downloaded [here](copilot_tutorial.pdf).
+
+Copilot comes with a set of examples as part of its distribution. One can find
+them in the `Examples` directory in the [main
+repository](https://github.com/Copilot-Language/Copilot).
+
+
 ## Structure and Sources
 Apart from the Copilot [Github project
 page](https://github.com/Copilot-Language), there are a number of sub projects

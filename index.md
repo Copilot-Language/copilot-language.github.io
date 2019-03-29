@@ -85,3 +85,27 @@ Institute of Aerospace, which partially supported this work.
 ## License
 Copilot is distributed under the BSD-3-Clause license, which be found [here](
 https://raw.githubusercontent.com/Copilot-Language/Copilot/master/LICENSE)
+
+
+## The Copilot Team
+The development of Copilot spans across several years. During these years
+the following people have helped develop Copilot (in no particular order):
+
+* Lee Pike
+* Alwyn Goodloe
+* Robin Morisset
+* Sebastian Niller
+* Nis Wegmann
+* Chris Hathhorn
+* Eli Mendelson
+* Jonathan Laurent
+* Laura Titolo
+* Georges-Axel Jolayan
+* Macallan Cruff
+* Ryan Spring
+* Lauren Pick
+* Frank Dedden
+* Ivan Perez
+
+In addition numerous people have helped with smaller things, reporting bugs
+etc. Thanks to all of them!

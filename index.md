@@ -87,6 +87,11 @@ Copilot is distributed under the BSD-3-Clause license, which be found [here](
 https://raw.githubusercontent.com/Copilot-Language/Copilot/master/LICENSE)
 
 
+## Issues / Bugs
+If you happen to find any issues or bugs, please add an issue to the
+corresponding repository on our Github pages.
+
+
 ## Contact
 The project is currently maintained by Frank Dedden and Alwyn Goodloe (NASA
 Langley Research Center). For any questions, remarks, ideas etc. please sent an

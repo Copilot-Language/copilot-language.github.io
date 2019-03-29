@@ -63,9 +63,10 @@ that make up Copilot:
   ([Sources](https://github.com/Copilot-Language/copilot-libraries))
   ([Hackage](https://hackage.haskell.org/package/copilot-libraries))
 
-- `copilot-cbackend`: A backend writing hard realtime C99 code. It writes
+- `copilot-c99`: A backend writing hard realtime C99 code. It writes
   readable output and ensures the output code is constant in memory and time.
-  ([Sources](https://github.com/Copilot-Language/copilot-core))
+  ([Sources](https://github.com/Copilot-Language/copilot-c99))
+  ([Hackage](https://hackage.haskell.org/package/copilot-c99))
 
 - `copilot-theorem`: Some tools to prove properties on Copilot.
   ([Sources](https://github.com/Copilot-Language/copilot-theorem))

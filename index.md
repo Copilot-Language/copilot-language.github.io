@@ -10,6 +10,9 @@ for systems with hard realtime requirements.
 
 
 ## Installation
+
+Currently the Copilot 3.0 release requires GHC 8.0 or higher.
+
 Copilot is available from
 [Hackage](https://hackage.haskell.org/package/copilot), and the latest version
 can be installed easily:

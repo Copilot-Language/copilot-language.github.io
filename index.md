@@ -19,8 +19,6 @@ can be installed easily:
 
     cabal install copilot
 
-Currently the Copilot 3.0 release requires GHC 8.0 or higher.
-
 Alternatively one can download and install it from the repositories as well:
 
     git clone https://github.com/Copilot-Language/Copilot.git

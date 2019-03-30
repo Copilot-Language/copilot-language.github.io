@@ -94,7 +94,7 @@ corresponding repository on our Github pages.
 
 ## Contact
 The project is currently maintained by Frank Dedden and Alwyn Goodloe (NASA
-Langley Research Center). For any questions, remarks, ideas etc. please sent an
+Langley Research Center). For any questions, remarks, ideas etc. please send an
 email to [dev@dedden.net](mailto:dev@dedden.net).
 
 

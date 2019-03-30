@@ -90,8 +90,8 @@ etc. Thanks to all of them!
 
 
 ## License
-Copilot is distributed under the BSD-3-Clause license, which be found [here](
-https://raw.githubusercontent.com/Copilot-Language/Copilot/master/LICENSE)
+Copilot is distributed under the BSD-3-Clause license, which can be found
+[here](https://raw.githubusercontent.com/Copilot-Language/Copilot/master/LICENSE)
 
 
 ## Issues / Bugs

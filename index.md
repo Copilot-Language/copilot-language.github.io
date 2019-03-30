@@ -34,8 +34,8 @@ the cabal method is highly recommended.
 A manual to Copilot can be downloaded [here](copilot_tutorial.pdf).
 
 Copilot comes with a set of examples as part of its distribution, available in
-the `Examples` directory of the [main
-repository](https://github.com/Copilot-Language/Copilot).
+the [`Examples` directory of the main
+repository](https://github.com/Copilot-Language/Copilot/tree/master/Examples).
 
 
 ## Structure and Sources

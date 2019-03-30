@@ -40,7 +40,7 @@ repository](https://github.com/Copilot-Language/Copilot).
 
 ## Structure and Sources
 Apart from the Copilot [Github project
-page](https://github.com/Copilot-Language), there are a number of sub projects
+page](https://github.com/Copilot-Language), there are a number of sub-projects
 that make up Copilot:
 
 - `Copilot`: The main Copilot package, to which all others are a dependency.

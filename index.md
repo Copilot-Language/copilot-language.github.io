@@ -26,15 +26,15 @@ Alternatively one can download and install it from the repositories as well:
     git submodule update --remote
     make
 
-Typically one would only go this route to develop Copilot, for regular users
+Typically one would only go this route to develop Copilot. For regular users
 the cabal method is highly recommended.
 
 
 ## Documentation
 A manual to Copilot can be downloaded [here](copilot_tutorial.pdf).
 
-Copilot comes with a set of examples as part of its distribution. One can find
-them in the `Examples` directory in the [main
+Copilot comes with a set of examples as part of its distribution, available in
+the `Examples` directory of the [main
 repository](https://github.com/Copilot-Language/Copilot).
 
 

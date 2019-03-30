@@ -21,9 +21,9 @@ can be installed easily:
 
 Alternatively one can download and install it from the repositories as well:
 
-    git clone https://github.com/Copilot-Language/Copilot.git
+    git clone --recursive https://github.com/Copilot-Language/Copilot.git
     cd Copilot
-    git submodule update --init
+    git submodule update --remote
     make
 
 Typically one would only go this route to develop Copilot, for regular users

@@ -10,36 +10,37 @@ for systems with hard realtime requirements.
 
 
 ## Installation
+
+Currently the Copilot 3.0 release requires GHC 8.0 or higher.
+
 Copilot is available from
 [Hackage](https://hackage.haskell.org/package/copilot), and the latest version
 can be installed easily:
 
     cabal install copilot
 
-Currently the Copilot 3.0 release requires GHC 8.0 or higher.
-
 Alternatively one can download and install it from the repositories as well:
 
-    git clone https://github.com/Copilot-Language/Copilot.git
+    git clone --recursive https://github.com/Copilot-Language/Copilot.git
     cd Copilot
-    git submodule update --init
+    git submodule update --remote
     make
 
-Typically one would only go this route to develop Copilot, for regular users
+Typically one would only go this route to develop Copilot. For regular users
 the cabal method is highly recommended.
 
 
 ## Documentation
 A manual to Copilot can be downloaded [here](copilot_tutorial.pdf).
 
-Copilot comes with a set of examples as part of its distribution. One can find
-them in the `Examples` directory in the [main
-repository](https://github.com/Copilot-Language/Copilot).
+Copilot comes with a set of examples as part of its distribution, available in
+the [`Examples` directory of the main
+repository](https://github.com/Copilot-Language/Copilot/tree/master/Examples).
 
 
 ## Structure and Sources
 Apart from the Copilot [Github project
-page](https://github.com/Copilot-Language), there are a number of sub projects
+page](https://github.com/Copilot-Language), there are a number of sub-projects
 that make up Copilot:
 
 - `Copilot`: The main Copilot package, to which all others are a dependency.

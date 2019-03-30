@@ -81,6 +81,12 @@ articles written on Copilot:
 We are grateful for NASA Contract NNL08AD13T to Galois, Inc. and the National
 Institute of Aerospace, which partially supported this work.
 
+We would like to thank Kaveh Darafsheh (NASA Langley Research Center) for his
+help with testing Copilot.
+
+In addition numerous people have helped with smaller things, reporting bugs
+etc. Thanks to all of them!
+
 
 ## License
 Copilot is distributed under the BSD-3-Clause license, which be found [here](
@@ -117,6 +123,3 @@ the following people have helped develop Copilot (in no particular order):
 * Lauren Pick
 * Frank Dedden
 * Ivan Perez
-
-In addition numerous people have helped with smaller things, reporting bugs
-etc. Thanks to all of them!

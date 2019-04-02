@@ -23,7 +23,7 @@ Alternatively one can download and install it from the repositories as well:
 
     git clone --recursive https://github.com/Copilot-Language/Copilot.git
     cd Copilot
-    git submodule update --remote
+    git submodule update --init --remote
     make
 
 Typically one would only go this route to develop Copilot. For regular users

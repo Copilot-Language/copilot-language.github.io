@@ -27,16 +27,16 @@ Alternatively one can download and install it from the repositories as well:
     git submodule update --init --remote
     ```
 
-    Compiling can either be done in a Nix-style build, or a traditional one:
+  Compiling can either be done in a Nix-style build, or a traditional one:
 
-    _Nix-Style build (Cabal >= 2.x)_
+  _Nix-Style build (Cabal >= 2.x)_
 
     ```bash
     cabal build       # For Cabal 3.x
     cabal v2-build    # For Cabal 2.x
     ```
 
-    _Traditional build (Cabal 1.x)_
+  _Traditional build (Cabal 1.x)_
     ```bash
     cabal install --dependencies-only
     cabal build

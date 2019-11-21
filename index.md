@@ -21,8 +21,8 @@ can be installed easily:
 
 Alternatively one can download and install it from the repositories as well:
 
-    git clone https://github.com/Copilot-Language/Copilot.git
-    cd Copilot
+    git clone https://github.com/Copilot-Language/copilot.git
+    cd copilot
     git submodule update --init --remote
 
   Compiling can either be done in a Nix-style build, or a traditional one:

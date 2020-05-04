@@ -8,6 +8,10 @@ cat <<!
 		<meta charset="utf-8">
 	<body>
 		<div id="page">
+			<div id="header">
+				<a href="index.html">Copilot</a>
+				<span>Realtime Programming Language and Runtime Verification Framework</span>
+			</div>
 			<div id="menu">$NAV</div>
 			<div id="content">
 				$CONTENT

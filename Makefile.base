@@ -8,7 +8,7 @@ all: $(HTML)
 %.content: %.md
 	markdown $^ > $@
 
-%.html: %.nav %.content
+%.html: %.nav %.content $(TEMPLATE)
 	web-render $(TEMPLATE) $* $*.nav $*.content > $@
 
 clean:

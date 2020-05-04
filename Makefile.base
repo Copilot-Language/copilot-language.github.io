@@ -1,0 +1,19 @@
+HTML=$(shell awk '$$1 == "T" {print $$2}' $(MAP))
+
+all: $(HTML)
+
+%.nav: $(MAP)
+	web-nav $^ | markdown > $@
+
+%.content: %.md
+	markdown $^ > $@
+
+%.html: %.nav %.content
+	web-render $(TEMPLATE) $* $*.nav $*.content > $@
+
+clean:
+	rm -f $(HTML)
+	rm -f $(HTML:.html=.nav)
+	rm -f $(HTML:.html=.content)
+
+.PHONY: clean

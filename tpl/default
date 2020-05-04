@@ -1,0 +1,18 @@
+#!/bin/sh
+
+cat <<!
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Copilot: $TITLE</title>
+		<meta charset="utf-8">
+	<body>
+		<div id="page">
+			<div id="menu">$NAV</div>
+			<div id="content">
+				$CONTENT
+			</div>
+		</div>
+	</body>
+</html>
+!

@@ -1,5 +1,5 @@
 # Documentation
-A manual to Copilot can be downloaded [here](copilot_tutorial.pdf).
+A manual to Copilot can be downloaded [here](downloads/copilot_tutorial.pdf).
 
 Copilot comes with a set of examples as part of its distribution, available in
 the [Examples

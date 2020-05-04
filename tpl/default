@@ -6,6 +6,7 @@ cat <<!
 	<head>
 		<title>Copilot: $TITLE</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
 	<body>
 		<div id="page">
 			<div id="header">

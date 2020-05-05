@@ -44,3 +44,8 @@ li {
 * {
   font-family: sans-serif;
 }
+
+p {
+  font-size:  93%;
+  text-align: justify;
+}

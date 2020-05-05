@@ -19,9 +19,9 @@ cat <<!
 			<div id="panel">
 				<div class="left">
 					<p>
-						Copilot is a runtime verification framework written in Haskell. It
-						allows the user to write programs in a simple but powerful way using
-						a stream-based approach.
+						Copilot is a realtime programming language and Runtime Verification
+						framework.  It allows users to write concise programs in a simple
+						but powerful way using a stream-based approach.
 					</p>
 					<p>
 						Programs can be interpreted for testing, or translated C99 code to be

@@ -6,3 +6,8 @@
   grid-template-columns: 1fr 1fr;
   grid-gap:              2em;
 }
+
+#panel p {
+  color:       white;
+  text-shadow: 1px 1px black;
+}

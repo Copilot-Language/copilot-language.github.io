@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Copilot: documentation</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="haskell.css">
+	<body>
+		<div id="page">
+			<div id="header">
+				<a href="index.html">Copilot</a>
+				<span>Realtime Programming Language and Runtime Verification Framework</span>
+			</div>
+			<div id="menu"><p><a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="download.html">Download</a>
+<a href="documentation.html">Documentation</a>
+<a href="contact.html">Contact</a>
+<a href="https://github.com/copilot-language/copilot">Source Code</a></p></div>
+			<div id="content">
+				<h1>Documentation</h1>
+
+<p>A manual to Copilot can be downloaded <a href="downloads/copilot_tutorial.pdf">here</a>.</p>
+
+<p>Copilot comes with a set of examples as part of its distribution, available in
+the <a href="https://github.com/Copilot-Language/Copilot/tree/master/Examples">Examples
+directory</a> of
+the main repository.</p>
+
+<h2>Structure and Sources</h2>
+
+<p>Apart from the Copilot <a href="https://github.com/Copilot-Language">Github project
+page</a>, there are a number of sub-projects
+that make up Copilot:</p>
+
+<ul>
+<li><p><code>Copilot</code>: The main Copilot package, to which all others are a dependency.
+One should install this one to install Copilot.
+(<a href="https://github.com/Copilot-Language/Copilot">Sources</a>)
+(<a href="https://hackage.haskell.org/package/copilot">Hackage</a>)</p></li>
+<li><p><code>copilot-core</code>: The core language, which efficiently represents Copilot
+expressions. The core is only of interest to implementers wishing to add a
+new back-end to Copilot.
+(<a href="https://github.com/Copilot-Language/copilot-core">Sources</a>)
+(<a href="https://hackage.haskell.org/package/copilot-core">Hackage</a>)</p></li>
+<li><p><code>copilot-language</code>: The front-end of Copilot defining the user language. A
+user of Copilot typically interacts with this library.
+(<a href="https://github.com/Copilot-Language/copilot-language">Sources</a>)
+(<a href="https://hackage.haskell.org/package/copilot-language">Hackage</a>)</p></li>
+<li><p><code>copilot-libraries</code>: User-supplied libraries for Copilot, including
+linear-temporal logic, fault-tolerant voting, regular expressions, etc.
+(<a href="https://github.com/Copilot-Language/copilot-libraries">Sources</a>)
+(<a href="https://hackage.haskell.org/package/copilot-libraries">Hackage</a>)</p></li>
+<li><p><code>copilot-c99</code>: A backend writing hard realtime C99 code. It writes
+readable output and ensures the output code is constant in memory and time.
+(<a href="https://github.com/Copilot-Language/copilot-c99">Sources</a>)
+(<a href="https://hackage.haskell.org/package/copilot-c99">Hackage</a>)</p></li>
+<li><p><code>copilot-theorem</code>: Some tools to prove properties on Copilot.
+(<a href="https://github.com/Copilot-Language/copilot-theorem">Sources</a>)
+(<a href="https://hackage.haskell.org/package/copilot-theorem">Hackage</a>)</p></li>
+</ul>
+
+
+<p>Additionally there is a specific repository that lists most of the papers and
+articles written on Copilot:
+<a href="https://github.com/Copilot-Language/copilot-discussion">copilot-discussion</a>.</p>
+			</div>
+		</div>
+	</body>
+</html>

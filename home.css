@@ -1,5 +1,6 @@
 #panel {
-  padding: 2em;
+  background: #764B8E;
+  padding:    2em;
 
   display:               grid;
   grid-template-columns: 1fr 1fr;

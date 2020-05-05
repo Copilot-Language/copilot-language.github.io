@@ -24,3 +24,11 @@ Copilot package:
 For general questions about Copilot, questions that are unsuited to be posted
 publicly or if you are not in the possession of a GitHub account, please send
 your questions to Frank Dedden [dev@dedden.net](mailto://dev@dedden.net).
+
+
+## Copilot developers
+Currently Copilot is maintained and developed by three people:
+
+* Frank Dedden
+* Alwyn Goodloe (NASA Langley Research Center)
+* Ivan Perez (NASA Langley Research Center / National Institue of Aerospace)

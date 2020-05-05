@@ -20,7 +20,7 @@ Copilot package:
 * [copilot-theorem](https://github.com/Copilot-Language/copilot-theorem/issues)
 
 
-# General Questions
+## General Questions
 For general questions about Copilot, questions that are unsuited to be posted
 publicly or if you are not in the possession of a GitHub account, please send
 your questions to Frank Dedden [dev@dedden.net](mailto://dev@dedden.net).

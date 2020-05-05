@@ -21,3 +21,8 @@
 #content {
   padding: 3em 5em;
 }
+
+p {
+  padding:     .3em 0;
+  line-height: 1.7em;
+}

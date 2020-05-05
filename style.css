@@ -66,3 +66,7 @@ h1 {
 h2 {
   font-size: 110%;
 }
+
+code {
+  font-family: monospace;
+}

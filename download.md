@@ -20,3 +20,6 @@ After these commands successfully finish, Copilot is installed and ready to
 use.
 
 
+## Sources
+The source code to Copilot can be found at our [GitHub
+project page](https://github.com/copilot-language/copilot).

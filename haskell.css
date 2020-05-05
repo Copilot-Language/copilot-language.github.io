@@ -1,5 +1,5 @@
 .language-haskell mark.comment {
-  color: cyan;
+  color: grey;
 }
 
 .language-haskell mark.string {
@@ -7,5 +7,9 @@
 }
 
 .language-haskell mark.literal {
-  color: greenyellow;
+  color: darkgreen;
+}
+
+.language-haskell mark.keyword {
+  color: blue;
 }

@@ -31,12 +31,15 @@ cat <<!
 					</p>
 				</div>
 				<div class="right">
-					<pre><code>temp :: Stream Word8
+					<pre><code class="language-haskell">-- Raw temperature from sensor, range -50.0 to 150.0.
+temp :: Stream Word8
 temp = extern "temperature" Nothing
 
+-- Transform the temperature to Celsius.
 ctemp :: Stream Float
 ctemp = (unsafeCast temp) * (150.0 / 255.0) - 50.0
 
+-- Bind two triggers with a 3.0C hysteresis.
 spec = do
   trigger "heaton"  (ctemp < 18.0) [arg ctemp]
   trigger "heatoff" (ctemp > 21.0) [arg ctemp]</code></pre>

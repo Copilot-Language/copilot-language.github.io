@@ -15,3 +15,9 @@
 #panel a {
   color: inherit;
 }
+
+#panel pre {
+  background: #222;
+  color:      white;
+  padding:    .5em;
+}

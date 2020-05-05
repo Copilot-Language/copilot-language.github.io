@@ -91,6 +91,14 @@ code {
   font-family: monospace;
 }
 
+pre {
+  border:       0;
+  border-style: solid;
+  border-width: 0 0 0 5px;
+  border-color: #9775AA;
+  padding:      .5em;
+}
+
 #page {
   background: white;
   box-shadow: 0 0 .5em lightgrey;

@@ -141,3 +141,7 @@ mark {
   background:  transparent;
   font-family: inherit;
 }
+
+li {
+  font-size: 93%;
+}

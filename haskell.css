@@ -9,3 +9,7 @@
 .language-haskell mark.literal {
   color: darkgreen;
 }
+
+.language-haskell mark.keyword {
+  color: blue;
+}

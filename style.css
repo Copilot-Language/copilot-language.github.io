@@ -136,3 +136,8 @@ body {
 #content a:hover {
   color: #718EA4;
 }
+
+mark {
+  background:  transparent;
+  font-family: inherit;
+}

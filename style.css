@@ -40,6 +40,21 @@ li {
 }
 
 
+/* The palette used for the website:
+Purple
+   shade 0 = #582A72
+   shade 1 = #9775AA
+   shade 2 = #764B8E
+   shade 3 = #3D1255
+   shade 4 = #260339
+
+Blue
+   shade 0 = #29506D
+   shade 1 = #718EA4
+   shade 2 = #496D89
+   shade 3 = #123652
+   shade 4 = #042037
+*/
 /* Theme */
 * {
   font-family: sans-serif;

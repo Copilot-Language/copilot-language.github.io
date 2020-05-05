@@ -21,3 +21,7 @@
   color:      white;
   padding:    .5em;
 }
+
+#panel .language-haskell mark.literal {
+  color: greenyellow;
+}

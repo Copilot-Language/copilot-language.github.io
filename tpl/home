@@ -31,18 +31,18 @@ cat <<!
 					</p>
 				</div>
 				<div class="right">
-					<pre><code class="language-haskell">-- Raw temperature from sensor, range -50.0 to 150.0.
+					<pre><code class="language-haskell"><mark class="comment">-- Raw temperature from sensor, range -50.0 to 150.0.</mark>
 temp :: Stream Word8
-temp = extern "temperature" Nothing
+temp = extern <mark class="string">"temperature"</mark> Nothing
 
--- Transform the temperature to Celsius.
+<mark class="comment">-- Transform the temperature to Celsius.</mark>
 ctemp :: Stream Float
-ctemp = (unsafeCast temp) * (150.0 / 255.0) - 50.0
+ctemp = (unsafeCast temp) * (<mark class="literal">150.0</mark> / <mark class="literal">255.0</mark>) - <mark class="literal">50.0</mark>
 
--- Bind two triggers with a 3.0C hysteresis.
+<mark class="comment">-- Bind two triggers with a 3.0C hysteresis.</mark>
 spec = do
-  trigger "heaton"  (ctemp < 18.0) [arg ctemp]
-  trigger "heatoff" (ctemp > 21.0) [arg ctemp]</code></pre>
+  trigger <mark class="string">"heaton"</mark>  (ctemp < <mark class="literal">18.0</mark>) [arg ctemp]
+  trigger <mark class="string">"heatoff"</mark> (ctemp > <mark class="literal">21.0</mark>) [arg ctemp]</code></pre>
 				</div>
 			</div>
 			<div id="content">

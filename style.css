@@ -8,3 +8,16 @@
   max-width: 60em;
   margin:    0 auto;
 }
+
+#header {
+  line-height: 6em;
+  padding:     0 1.5em;
+}
+
+#menu {
+  padding: 0 1em;
+}
+
+#content {
+  padding: 3em 5em;
+}

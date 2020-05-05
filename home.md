@@ -1,3 +1,7 @@
+## Licence
+Copilot is distributed under the BSD-3-Clause licence, which can be found
+[here](https://raw.githubusercontent.com/Copilot-Language/Copilot/master/LICENSE).
+
 ## Acknowledgements
 We are grateful for NASA Contract NNL08AD13T to Galois, Inc. and the National
 Institute of Aerospace, which partially supported this work.

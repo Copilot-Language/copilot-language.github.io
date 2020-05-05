@@ -1,0 +1,147 @@
+/* Layout and spacing */
+* {
+  margin:  0;
+  padding: 0;
+}
+
+#page {
+  max-width: 60em;
+  margin:    0 auto;
+}
+
+#header {
+  line-height: 6em;
+  padding:     0 1.5em;
+}
+
+#menu {
+  padding: 0 1em;
+}
+
+#content {
+  padding: 3em 5em;
+}
+
+p {
+  padding:     .3em 0;
+  line-height: 1.7em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0 0 0;
+}
+
+ul {
+  margin: 0 0 0 3em;
+}
+
+li {
+  padding: .2em 0;
+}
+
+#menu p {
+  margin:  0;
+  padding: 0;
+}
+
+
+/* The palette used for the website:
+Purple
+   shade 0 = #582A72
+   shade 1 = #9775AA
+   shade 2 = #764B8E
+   shade 3 = #3D1255
+   shade 4 = #260339
+
+Blue
+   shade 0 = #29506D
+   shade 1 = #718EA4
+   shade 2 = #496D89
+   shade 3 = #123652
+   shade 4 = #042037
+*/
+/* Theme */
+* {
+  font-family: sans-serif;
+}
+
+p {
+  font-size:  93%;
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+h1 {
+  border:       0;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  border-color: #3D1255;
+  font-size:    150%;
+  font-variant: small-caps;
+}
+
+h2 {
+  font-size: 110%;
+}
+
+code {
+  font-family: monospace;
+}
+
+#page {
+  background: white;
+  box-shadow: 0 0 .5em lightgrey;
+}
+
+body {
+  background: #eee;
+}
+
+#header a {
+  font-variant:    small-caps;
+  font-weight:     100;
+  font-size:       250%;
+  text-decoration: none;
+}
+
+#header span {
+  color:      grey;
+  font-style: italic;
+  margin:     0 0 0 1.5em;
+}
+
+#menu {
+  background: #3D1255;
+}
+
+#menu a {
+  color:           white;
+  display:         inline-block;
+  padding:         .2em 1em;
+  text-decoration: none;
+  text-shadow:     1px 1px black;
+}
+
+#menu a:hover {
+  background: #764B8E;
+}
+
+#content a {
+  color: #29526D;
+}
+
+#content a:hover {
+  color: #718EA4;
+}
+
+mark {
+  background:  transparent;
+  font-family: inherit;
+}
+
+li {
+  font-size: 93%;
+}

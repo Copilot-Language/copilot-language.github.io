@@ -1,0 +1,23 @@
+#panel {
+  background: #764B8E;
+  padding:    2em;
+
+  display:               grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:              2em;
+}
+
+#panel p {
+  color:       white;
+  text-shadow: 1px 1px black;
+}
+
+#panel a {
+  color: inherit;
+}
+
+#panel pre {
+  background: #222;
+  color:      white;
+  padding:    .5em;
+}

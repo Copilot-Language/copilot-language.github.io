@@ -38,3 +38,9 @@ ul {
 li {
   padding: .2em 0;
 }
+
+
+/* Theme */
+* {
+  font-family: sans-serif;
+}

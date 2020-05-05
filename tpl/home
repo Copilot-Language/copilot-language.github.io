@@ -29,6 +29,9 @@ cat <<!
 						backend ensures us that the output is constant in memory and time,
 						making it suitable for systems with hard realtime requirements.
 					</p>
+					<p>
+						<a href="about.html">Learn more about the project...</a>
+					</p>
 				</div>
 				<div class="right">
 					<pre><code class="language-haskell"><mark class="comment">-- Raw temperature from sensor, range -50.0 to 150.0.</mark>

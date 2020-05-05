@@ -100,6 +100,13 @@ body {
   background: #eee;
 }
 
+#header a {
+  font-variant:    small-caps;
+  font-weight:     100;
+  font-size:       250%;
+  text-decoration: none;
+}
+
 #menu {
   background: #3D1255;
 }

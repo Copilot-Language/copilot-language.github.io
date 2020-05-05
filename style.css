@@ -1,0 +1,10 @@
+/* Layout and spacing */
+* {
+  margin:  0;
+  padding: 0;
+}
+
+#page {
+  max-width: 60em;
+  margin:    0 auto;
+}

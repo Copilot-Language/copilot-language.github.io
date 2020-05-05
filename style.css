@@ -26,3 +26,7 @@ p {
   padding:     .3em 0;
   line-height: 1.7em;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0 0 0;
+}

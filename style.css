@@ -93,3 +93,8 @@ body {
 #menu {
   background: #3D1255;
 }
+
+#menu a {
+  display:         inline-block;
+  padding:         .2em 1em;
+}

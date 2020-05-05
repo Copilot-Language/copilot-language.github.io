@@ -30,3 +30,11 @@ p {
 h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 0 0;
 }
+
+ul {
+  margin: 0 0 0 3em;
+}
+
+li {
+  padding: .2em 0;
+}

@@ -115,3 +115,11 @@ body {
 #menu a:hover {
   background: #764B8E;
 }
+
+#content a {
+  color: #29526D;
+}
+
+#content a:hover {
+  color: #718EA4;
+}

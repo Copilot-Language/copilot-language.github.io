@@ -43,5 +43,4 @@ the following people have helped develop Copilot (in no particular order):
 * Macallan Cruff
 * Ryan Spring
 * Lauren Pick
-* Frank Dedden
 * Ivan Perez

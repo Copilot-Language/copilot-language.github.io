@@ -23,7 +23,8 @@ Copilot package:
 ## General Questions
 For general questions about Copilot, questions that are unsuited to be posted
 publicly or if you are not in the possession of a GitHub account, please send
-your questions to Frank Dedden [dev@dedden.net](mailto://dev@dedden.net).
+your questions to the maintainer, Frank Dedden
+[dev@dedden.net](mailto://dev@dedden.net).
 
 
 ## Previous developers

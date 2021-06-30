@@ -1,26 +1,25 @@
 ## News
-**Release 3.2.1 -- 2021-03-08**
+**Release 3.3 -- 2021-05-14**
 
-We are very pleased to announce the release of Copilot 3.2.1, a stream-based
-DSL for writing and monitoring embedded C programs, with an emphasis on
-correctness and hard realtime requirements. Copilot is typically used as a
-high-level runtime verification framework, and supports temporal logic (LTL,
-PTLTL and MTL), clocks and voting algorithms.
+We are pleased to announce the release of Copilot 3.3, a stream-based DSL for
+writing and monitoring embedded C programs, with an emphasis on correctness and
+hard realtime requirements. Copilot is typically used as a high-level runtime
+verification framework, and supports temporal logic (LTL, PTLTL and MTL),
+clocks and voting algorithms.
 
 Among others, Copilot has been used at the Safety Critical Avionics Systems
 Branch of NASA Langley Research Center for monitoring test flights of drones.
 
-In collaboration with the development team at Galois, Inc., the new release
-introduces a backend to their [What4](https://github.com/GaloisInc/what4)
-solver frontend. With this addition, it is now possible to prove properties of
-Copilot specifications using. We thank Galois for their help and their
-contribution.
+This new release introduces a number of bug fixes and deprecates functions that
+have been superseded. Additionally, our main Copilot repository will now
+include also all the libraries that accompany the Copilot framework, and all
+development will take place under that same repository.
 
-The second big focus of this release was the documentation: the public API
-documentation has been improved and completed.
+Current emphasis is on facilitating the use with other systems, and improving
+the codebase in terms of stability and test coverage. Users are encouraged to
+participate by opening issues and asking questions via our [github
+repo](https://github.com/copilot-language/copilot).
 
-Additionally, several small improvements and fixes are made in the C99 code
-generator.
 
 ## Licence
 Copilot is distributed under the BSD-3-Clause licence, which can be found

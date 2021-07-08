@@ -1,7 +1,7 @@
 ## News
-**Release 3.3 -- 2021-05-14**
+**Release 3.4 -- 2021-07-07**
 
-We are pleased to announce the release of Copilot 3.3, a stream-based DSL for
+We are pleased to announce the release of Copilot 3.4, a stream-based DSL for
 writing and monitoring embedded C programs, with an emphasis on correctness and
 hard realtime requirements. Copilot is typically used as a high-level runtime
 verification framework, and supports temporal logic (LTL, PTLTL and MTL),
@@ -11,9 +11,7 @@ Among others, Copilot has been used at the Safety Critical Avionics Systems
 Branch of NASA Langley Research Center for monitoring test flights of drones.
 
 This new release introduces a number of bug fixes and deprecates functions that
-have been superseded. Additionally, our main Copilot repository will now
-include also all the libraries that accompany the Copilot framework, and all
-development will take place under that same repository.
+have been superseded.
 
 Current emphasis is on facilitating the use with other systems, and improving
 the codebase in terms of stability and test coverage. Users are encouraged to

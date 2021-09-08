@@ -2,8 +2,8 @@
 A manual to Copilot can be downloaded [here](downloads/copilot_tutorial.pdf).
 
 Copilot comes with a set of examples as part of its distribution, available in
-the [Examples
-directory](https://github.com/Copilot-Language/Copilot/tree/master/Examples) of
+the [examples
+directory](https://github.com/Copilot-Language/Copilot/tree/master/examples) of
 the repository.
 
 

@@ -1,7 +1,7 @@
 ## News
-**Release 3.7 -- 2022-01-07**
+**Release 3.8 -- 2022-01-08**
 
-We are pleased to announce the release of Copilot 3.7, a stream-based DSL for
+We are pleased to announce the release of Copilot 3.8, a stream-based DSL for
 writing and monitoring embedded C programs, with an emphasis on correctness and
 hard realtime requirements. Copilot is typically used as a high-level runtime
 verification framework, and supports temporal logic (LTL, PTLTL and MTL),
@@ -10,8 +10,9 @@ clocks and voting algorithms.
 Among others, Copilot has been used at the Safety Critical Avionics Systems
 Branch of NASA Langley Research Center for monitoring test flights of drones.
 
-This new release fixes 5 bugs, and removes deprecated definitions, and
-deprecates internal types.
+This new release introduces further unit tests, removes deprecated definitions
+and modules. It also marks packages as uncurated to prevent modifications on
+the part of the Hackage maintainers.
 
 Current emphasis is on facilitating the use with other systems, and improving
 the codebase in terms of stability and test coverage. Users are encouraged to

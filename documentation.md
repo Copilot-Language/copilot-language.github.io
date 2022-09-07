@@ -22,6 +22,9 @@ that make up Copilot, that all share a single repository:
   new back-end to Copilot.
   ([Hackage](https://hackage.haskell.org/package/copilot-core))
 
+- `copilot-interpreter`: A backend for simulating Copilot specifications.
+  ([Hackage](https://hackage.haskell.org/package/copilot-interpreter))
+
 - `copilot-language`: The front-end of Copilot defining the user language. A
   user of Copilot typically interacts with this library.
   ([Hackage](https://hackage.haskell.org/package/copilot-language))

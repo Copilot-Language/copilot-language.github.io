@@ -1,7 +1,7 @@
 ## News
-**Release 3.9 -- 2022-01-08**
+**Release 3.10 -- 2022-07-07**
 
-We are pleased to announce the release of Copilot 3.9, a stream-based DSL for
+We are pleased to announce the release of Copilot 3.10, a stream-based DSL for
 writing and monitoring embedded C programs, with an emphasis on correctness and
 hard realtime requirements. Copilot is typically used as a high-level runtime
 verification framework, and supports temporal logic (LTL, PTLTL and MTL),
@@ -10,12 +10,12 @@ clocks and voting algorithms.
 Among others, Copilot has been used at the Safety Critical Avionics Systems
 Branch of NASA Langley Research Center for monitoring test flights of drones.
 
-This new release fixes multiple bugs, removes deprecated elements, hides
-internal parts of the implementation from the public API, implements part of
-our new coding standard, and adds support for GHC 9. As part of this new
-release, we have also put in place a new software engineering process designed
-to meet the requirements to obtain NASA's Class D software classification.
-Details are available
+This new release alters how structs are passed as arguments to handler
+functions. It also fixes multiple bugs, removes deprecated elements, hides
+internal parts of the implementation from the public API, and removes
+unnecessary dependencies. This release also continues to use our new software
+engineering process designed to meet the requirements to obtain NASA's Class D
+software classification. Details are available
 [here](https://github.com/Copilot-Language/copilot/milestone/13?closed=1).
 
 Current emphasis is on facilitating the use with other systems, improving the

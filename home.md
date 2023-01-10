@@ -17,7 +17,7 @@ published on hackage, as well as github.
 This release also continues to use our new software engineering process
 designed to meet the requirements to obtain NASA's Class D software
 classification. Details are available
-[here](https://github.com/Copilot-Language/copilot/milestone/16?closed=1).
+[here](https://github.com/Copilot-Language/copilot/milestone/17?closed=1).
 
 Current emphasis is on improving the codebase in terms of stability and test
 coverage, removing unnecessary dependencies, hiding internal definitions, and

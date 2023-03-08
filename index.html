@@ -1,1 +1,102 @@
-home.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Copilot: home</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="haskell.css">
+		<link rel="stylesheet" href="home.css">
+	<body>
+		<div id="page">
+			<div id="header">
+				<a href="index.html">Copilot</a>
+				<span>Realtime Programming Language and Runtime Verification Framework</span>
+			</div>
+			<div id="menu"><p><a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="download.html">Download</a>
+<a href="documentation.html">Documentation</a>
+<a href="contact.html">Contact</a>
+<a href="https://github.com/copilot-language/copilot">Source Code</a></p></div>
+			<div id="panel">
+				<div class="left">
+					<p>
+						Copilot is a realtime programming language and Runtime Verification
+						framework.  It allows users to write concise programs in a simple
+						but powerful way using a stream-based approach.
+					</p>
+					<p>
+						Programs can be interpreted for testing, or translated C99 code to be
+						incorporated in a project, or as a standalone application. The C99
+						backend ensures us that the output is constant in memory and time,
+						making it suitable for systems with hard realtime requirements.
+					</p>
+					<p>
+						<a href="about.html">Learn more about the project...</a>
+					</p>
+				</div>
+				<div class="right">
+					<pre><code class="language-haskell"><mark class="comment">-- Raw temperature from sensor, range -50.0C to 100.0C.</mark>
+temp :: Stream Word8
+temp = extern <mark class="string">"temperature"</mark> Nothing
+
+<mark class="comment">-- Transform the temperature to Celsius.</mark>
+ctemp :: Stream Float
+ctemp = (unsafeCast temp) * (<mark class="literal">150.0</mark> / <mark class="literal">255.0</mark>) - <mark class="literal">50.0</mark>
+
+<mark class="comment">-- Bind two triggers with a 3.0C hysteresis.</mark>
+spec = do
+  trigger <mark class="string">"heaton"</mark>  (ctemp < <mark class="literal">18.0</mark>) [arg ctemp]
+  trigger <mark class="string">"heatoff"</mark> (ctemp > <mark class="literal">21.0</mark>) [arg ctemp]</code></pre>
+				</div>
+			</div>
+			<div id="content">
+				<h2>News</h2>
+
+<p><strong>Release 3.14 – 2023-03-07</strong></p>
+
+<p>We are pleased to announce the release of Copilot 3.14, a stream-based DSL
+for writing and monitoring embedded C programs, with an emphasis on correctness
+and hard realtime requirements. Copilot is typically used as a high-level
+runtime verification framework, and supports temporal logic (LTL, PTLTL and
+MTL), clocks and voting algorithms.</p>
+
+<p>Among others, Copilot has been used at the Safety Critical Avionics Systems
+Branch of NASA Langley Research Center for monitoring test flights of
+drones.</p>
+
+<p>This release removes deprecated definitions, provides support for
+GHC 9.4 and What4 1.4, and includes a much improved README. The new release has
+been published on hackage, as well as github.</p>
+
+<p>This release also continues to use our new software engineering process
+designed to meet the requirements to obtain NASA’s Class D software
+classification. Details are available <a
+href="https://github.com/Copilot-Language/copilot/milestone/17?closed=1">here</a>.</p>
+
+<p>Current emphasis is on improving the codebase in terms of stability and test
+coverage, removing unnecessary dependencies, hiding internal definitions, and
+formatting the code to meet our new coding standards. Users are encouraged to
+participate by opening issues and asking questions via our <a
+href="https://github.com/copilot-language/copilot">github repo</a>.</p>
+
+<h2>Licence</h2>
+
+<p>Copilot is distributed under the BSD-3-Clause licence, which can be found
+<a href="https://raw.githubusercontent.com/Copilot-Language/Copilot/master/LICENSE">here</a>.</p>
+
+<h2>Acknowledgements</h2>
+
+<p>We are grateful for NASA Contract NNL08AD13T to Galois, Inc. and the National
+Institute of Aerospace, which partially supported this work.</p>
+
+<p>Additionally NASA Langley contracts 80LARC17C0004 and NNL09AA00A supported
+further development of Copilot.</p>
+
+<p>We would like to thank Kaveh Darafsheh (NASA Langley Research Center) for his
+help with testing Copilot. In addition numerous people have helped with smaller
+things, reporting bugs etc. Thanks to all of them!</p>
+			</div>
+		</div>
+	</body>
+</html>

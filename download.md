@@ -1,7 +1,7 @@
 # Download & Installing
 Copilot is implemented as a Embedded Domain Specific Language in Haskell.
-Currently Copilot 3.1 requires a version of the Glasgow Haskell Compiler (GHC)
-of at least 8.0 to be installed. The recommended way to do this is by
+Currently Copilot 3.14 requires a version of the Glasgow Haskell Compiler (GHC)
+of at least 8.6 to be installed. The recommended way to do this is by
 installing the [Haskell Platform](https://www.haskell.org/platform/). The
 Haskell platform comes with the compiler and basic tools necessary to install
 Copilot.

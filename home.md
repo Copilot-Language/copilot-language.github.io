@@ -10,8 +10,8 @@ clocks and voting algorithms.
 Among others, Copilot has been used at the Safety Critical Avionics Systems
 Branch of NASA Langley Research Center for monitoring test flights of drones.
 
-This release fixes 4 bugs in `copilot-core` and `copilot-c99`. We have also
-removed 2 deprecated modules and one dependency. The new release has been
+This release removes deprecated definitions, provides support for GHC 9.4 and
+What4 1.4, and includes a much improved README. The new release has been
 published on hackage, as well as github.
 
 This release also continues to use our new software engineering process

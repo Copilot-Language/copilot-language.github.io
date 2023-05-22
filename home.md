@@ -1,7 +1,7 @@
 ## News
-**Release 3.13 -- 2023-01-07**
+**Release 3.15 -- 2023-05-07**
 
-We are pleased to announce the release of Copilot 3.12, a stream-based DSL for
+We are pleased to announce the release of Copilot 3.15, a stream-based DSL for
 writing and monitoring embedded C programs, with an emphasis on correctness and
 hard realtime requirements. Copilot is typically used as a high-level runtime
 verification framework, and supports temporal logic (LTL, PTLTL and MTL),
@@ -10,9 +10,8 @@ clocks and voting algorithms.
 Among others, Copilot has been used at the Safety Critical Avionics Systems
 Branch of NASA Langley Research Center for monitoring test flights of drones.
 
-This release removes deprecated definitions, provides support for GHC 9.4 and
-What4 1.4, and includes a much improved README. The new release has been
-published on hackage, as well as github.
+This is a maintenance release that removes deprecated definitions. The new
+release has been published on hackage, as well as github.
 
 This release also continues to use our new software engineering process
 designed to meet the requirements to obtain NASA's Class D software

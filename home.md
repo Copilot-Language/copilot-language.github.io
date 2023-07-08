@@ -1,7 +1,7 @@
 ## News
-**Release 3.15 -- 2023-05-07**
+**Release 3.16 -- 2023-07-07**
 
-We are pleased to announce the release of Copilot 3.15, a stream-based DSL for
+We are pleased to announce the release of Copilot 3.16, a stream-based DSL for
 writing and monitoring embedded C programs, with an emphasis on correctness and
 hard realtime requirements. Copilot is typically used as a high-level runtime
 verification framework, and supports temporal logic (LTL, PTLTL and MTL),
@@ -10,13 +10,16 @@ clocks and voting algorithms.
 Among others, Copilot has been used at the Safety Critical Avionics Systems
 Branch of NASA Langley Research Center for monitoring test flights of drones.
 
-This is a maintenance release that removes deprecated definitions. The new
-release has been published on hackage, as well as github.
+This release introduces two important changes. The first is a battery of tests
+for the C99 backend. This contribution is a key component towards meeting the
+requirements of NASA's Procedural Requirements for Research and Technology
+Software. The second is a breaking change in copilot-language: a type has moved
+modules.
 
-This release also continues to use our new software engineering process
-designed to meet the requirements to obtain NASA's Class D software
-classification. Details are available
-[here](https://github.com/Copilot-Language/copilot/milestone/17?closed=1).
+Details are available
+[here](https://github.com/Copilot-Language/copilot/milestone/20?closed=1)
+and
+[here](https://github.com/Copilot-Language/copilot/releases/tag/v3.16).
 
 Current emphasis is on improving the codebase in terms of stability and test
 coverage, removing unnecessary dependencies, hiding internal definitions, and

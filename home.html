@@ -48,54 +48,52 @@ ctemp = (unsafeCast temp) * (<mark class="literal">150.0</mark> / <mark class="l
 spec = do
   trigger <mark class="string">"heaton"</mark>  (ctemp < <mark class="literal">18.0</mark>) [arg ctemp]
   trigger <mark class="string">"heatoff"</mark> (ctemp > <mark class="literal">21.0</mark>) [arg ctemp]</code></pre>
-                </div>
-            </div>
-            <div id="content">
-                <h2>News</h2>
-
-<p><strong>Release 3.15 – 2023-05-07</strong></p>
-
-<p>We are pleased to announce the release of Copilot 3.15, a stream-based DSL
-for writing and monitoring embedded C programs, with an emphasis on correctness
-and hard realtime requirements. Copilot is typically used as a high-level
-runtime verification framework, and supports temporal logic (LTL, PTLTL and
-MTL), clocks and voting algorithms.</p>
-
-<p>Among others, Copilot has been used at the Safety Critical Avionics Systems
-Branch of NASA Langley Research Center for monitoring test flights of
-drones.</p>
-
-<p>This is a maintenance release that removes deprecated definitions. The new
-release has been published on hackage, as well as github.</p>
-
-<p>This release also continues to use our new software engineering process
-designed to meet the requirements to obtain NASA’s Class D software
-classification. Details are available <a
-href="https://github.com/Copilot-Language/copilot/milestone/17?closed=1">here</a>.</p>
-
-<p>Current emphasis is on improving the codebase in terms of stability and test
-coverage, removing unnecessary dependencies, hiding internal definitions, and
-formatting the code to meet our new coding standards. Users are encouraged to
-participate by opening issues and asking questions via our <a
-href="https://github.com/copilot-language/copilot">github repo</a>.</p>
-
-<h2>Licence</h2>
-
-<p>Copilot is distributed under the BSD-3-Clause licence, which can be found
-<a href="https://raw.githubusercontent.com/Copilot-Language/Copilot/master/LICENSE">here</a>.</p>
-
-<h2>Acknowledgements</h2>
-
-<p>We are grateful for NASA Contract NNL08AD13T to Galois, Inc. and the National
-Institute of Aerospace, which partially supported this work.</p>
-
-<p>Additionally NASA Langley contracts 80LARC17C0004 and NNL09AA00A supported
-further development of Copilot.</p>
-
-<p>We would like to thank Kaveh Darafsheh (NASA Langley Research Center) for his
-help with testing Copilot. In addition numerous people have helped with smaller
-things, reporting bugs etc. Thanks to all of them!</p>
-            </div>
         </div>
-    </body>
+      </div>
+      <div id="content">
+        <h2 id="news">News</h2>
+        <p><strong>Release 3.16 – 2023-07-07</strong></p>
+        <p>We are pleased to announce the release of Copilot 3.16, a
+        stream-based DSL for writing and monitoring embedded C programs,
+        with an emphasis on correctness and hard realtime requirements.
+        Copilot is typically used as a high-level runtime verification
+        framework, and supports temporal logic (LTL, PTLTL and MTL),
+        clocks and voting algorithms.</p>
+        <p>Among others, Copilot has been used at the Safety Critical
+        Avionics Systems Branch of NASA Langley Research Center for
+        monitoring test flights of drones.</p>
+        <p>This release introduces two important changes. The first is a
+        battery of tests for the C99 backend. This contribution is a key
+        component towards meeting the requirements of NASA’s Procedural
+        Requirements for Research and Technology Software. The second is
+        a breaking change in copilot-language: a type has moved
+        modules.</p>
+        <p>Details are available <a
+        href="https://github.com/Copilot-Language/copilot/milestone/20?closed=1">here</a>
+        and <a
+        href="https://github.com/Copilot-Language/copilot/releases/tag/v3.16">here</a>.</p>
+        <p>Current emphasis is on improving the codebase in terms of
+        stability and test coverage, removing unnecessary dependencies,
+        hiding internal definitions, and formatting the code to meet our
+        new coding standards. Users are encouraged to participate by
+        opening issues and asking questions via our <a
+        href="https://github.com/copilot-language/copilot">github
+        repo</a>.</p>
+        <h2 id="licence">Licence</h2>
+        <p>Copilot is distributed under the BSD-3-Clause licence, which
+        can be found <a
+        href="https://raw.githubusercontent.com/Copilot-Language/Copilot/master/LICENSE">here</a>.</p>
+        <h2 id="acknowledgements">Acknowledgements</h2>
+        <p>We are grateful for NASA Contract NNL08AD13T to Galois,
+        Inc. and the National Institute of Aerospace, which partially
+        supported this work.</p>
+        <p>Additionally NASA Langley contracts 80LARC17C0004 and
+        NNL09AA00A supported further development of Copilot.</p>
+        <p>We would like to thank Kaveh Darafsheh (NASA Langley Research
+        Center) for his help with testing Copilot. In addition numerous
+        people have helped with smaller things, reporting bugs etc.
+        Thanks to all of them!</p>
+      </div>
+    </div>
+  </body>
 </html>

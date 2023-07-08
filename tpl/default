@@ -3,22 +3,22 @@
 cat <<!
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Copilot: $TITLE</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="haskell.css">
-	<body>
-		<div id="page">
-			<div id="header">
-				<a href="index.html">Copilot</a>
-				<span>Realtime Programming Language and Runtime Verification Framework</span>
-			</div>
-			<div id="menu">$NAV</div>
-			<div id="content">
-				$CONTENT
-			</div>
-		</div>
-	</body>
+    <head>
+        <title>Copilot: $TITLE</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="haskell.css">
+    <body>
+        <div id="page">
+            <div id="header">
+                <a href="index.html">Copilot</a>
+                <span>Realtime Programming Language and Runtime Verification Framework</span>
+            </div>
+            <div id="menu">$NAV</div>
+            <div id="content">
+                $CONTENT
+            </div>
+        </div>
+    </body>
 </html>
 !

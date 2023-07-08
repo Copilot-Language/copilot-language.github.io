@@ -3,38 +3,38 @@
 cat <<!
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Copilot: $TITLE</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="haskell.css">
-		<link rel="stylesheet" href="home.css">
-	<body>
-		<div id="page">
-			<div id="header">
-				<a href="index.html">Copilot</a>
-				<span>Realtime Programming Language and Runtime Verification Framework</span>
-			</div>
-			<div id="menu">$NAV</div>
-			<div id="panel">
-				<div class="left">
-					<p>
-						Copilot is a realtime programming language and Runtime Verification
-						framework.  It allows users to write concise programs in a simple
-						but powerful way using a stream-based approach.
-					</p>
-					<p>
-						Programs can be interpreted for testing, or translated C99 code to be
-						incorporated in a project, or as a standalone application. The C99
-						backend ensures us that the output is constant in memory and time,
-						making it suitable for systems with hard realtime requirements.
-					</p>
-					<p>
-						<a href="about.html">Learn more about the project...</a>
-					</p>
-				</div>
-				<div class="right">
-					<pre><code class="language-haskell"><mark class="comment">-- Raw temperature from sensor, range -50.0C to 100.0C.</mark>
+    <head>
+        <title>Copilot: $TITLE</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="haskell.css">
+        <link rel="stylesheet" href="home.css">
+    <body>
+        <div id="page">
+            <div id="header">
+                <a href="index.html">Copilot</a>
+                <span>Realtime Programming Language and Runtime Verification Framework</span>
+            </div>
+            <div id="menu">$NAV</div>
+            <div id="panel">
+                <div class="left">
+                    <p>
+                        Copilot is a realtime programming language and Runtime Verification
+                        framework.  It allows users to write concise programs in a simple
+                        but powerful way using a stream-based approach.
+                    </p>
+                    <p>
+                        Programs can be interpreted for testing, or translated C99 code to be
+                        incorporated in a project, or as a standalone application. The C99
+                        backend ensures us that the output is constant in memory and time,
+                        making it suitable for systems with hard realtime requirements.
+                    </p>
+                    <p>
+                        <a href="about.html">Learn more about the project...</a>
+                    </p>
+                </div>
+                <div class="right">
+                    <pre><code class="language-haskell"><mark class="comment">-- Raw temperature from sensor, range -50.0C to 100.0C.</mark>
 temp :: Stream Word8
 temp = extern <mark class="string">"temperature"</mark> Nothing
 
@@ -46,12 +46,12 @@ ctemp = (unsafeCast temp) * (<mark class="literal">150.0</mark> / <mark class="l
 spec = do
   trigger <mark class="string">"heaton"</mark>  (ctemp < <mark class="literal">18.0</mark>) [arg ctemp]
   trigger <mark class="string">"heatoff"</mark> (ctemp > <mark class="literal">21.0</mark>) [arg ctemp]</code></pre>
-				</div>
-			</div>
-			<div id="content">
-				$CONTENT
-			</div>
-		</div>
-	</body>
+                </div>
+            </div>
+            <div id="content">
+                $CONTENT
+            </div>
+        </div>
+    </body>
 </html>
 !

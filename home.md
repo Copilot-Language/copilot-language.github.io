@@ -27,8 +27,8 @@ formatting the code to meet our new coding standards. Users are encouraged to
 participate by opening issues and asking questions via our [github
 repo](https://github.com/copilot-language/copilot).
 
-## Licence
-Copilot is distributed under the BSD-3-Clause licence, which can be found
+## License
+Copilot is distributed under the BSD-3-Clause license, which can be found
 [here](https://raw.githubusercontent.com/Copilot-Language/Copilot/master/LICENSE).
 
 ## Acknowledgements

@@ -1,21 +1,26 @@
-MAP=map
-OUT=html
-TEMPLATE=tpl/default
+.PHONY: all
 
-include Makefile.base
+all: _site/about.html \
+     _site/contact.html \
+     _site/documentation.html \
+     _site/download.html \
+     _site/home.html \
+     _site/index.html
 
-publish: all
-	git add .
-	git stash
-	git checkout master
-	git checkout --theirs stash -- .
-	git stash drop
-	git reset .
-	git clean -df
-	git clean -df
+_site/about.html: about.md
+	./compile.sh About $< default
 
-home.html: home.nav home.content tpl/home
-	web-render tpl/home home home.nav home.content > $@
+_site/contact.html: contact.md
+	./compile.sh Contact $< default
 
-index.html: home.html
-	ln -s $< $@
+_site/documentation.html: documentation.md
+	./compile.sh Documentation $< default
+
+_site/download.html: download.md
+	./compile.sh Download $< default
+
+_site/home.html: home.md
+	./compile.sh Home $< home
+
+_site/index.html: _site/home.html
+	cp $< $@

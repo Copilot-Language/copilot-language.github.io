@@ -1,6 +1,3 @@
-#!/bin/sh
-
-cat <<!
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,7 +12,9 @@ cat <<!
                 <a href="index.html">Copilot</a>
                 <span>Realtime Programming Language and Runtime Verification Framework</span>
             </div>
-            <div id="menu">$NAV</div>
+            <div id="menu">
+              $NAV
+            </div>
             <div id="panel">
                 <div class="left">
                     <p>
@@ -46,12 +45,11 @@ ctemp = (unsafeCast temp) * (<mark class="literal">150.0</mark> / <mark class="l
 spec = do
   trigger <mark class="string">"heaton"</mark>  (ctemp < <mark class="literal">18.0</mark>) [arg ctemp]
   trigger <mark class="string">"heatoff"</mark> (ctemp > <mark class="literal">21.0</mark>) [arg ctemp]</code></pre>
-                </div>
-            </div>
-            <div id="content">
-                $CONTENT
-            </div>
         </div>
-    </body>
+      </div>
+      <div id="content">
+        $CONTENT
+      </div>
+    </div>
+  </body>
 </html>
-!

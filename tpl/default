@@ -1,6 +1,3 @@
-#!/bin/sh
-
-cat <<!
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,4 +18,3 @@ cat <<!
         </div>
     </body>
 </html>
-!

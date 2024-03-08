@@ -1,30 +1,34 @@
 ## News
-**Release 3.17 -- 2023-11-07**
+**Release 3.18.1 -- 2024-01-07**
 
-We are pleased to announce the release of Copilot 3.17, a stream-based DSL for
-writing and monitoring embedded C programs, with an emphasis on correctness and
-hard realtime requirements. Copilot is typically used as a high-level runtime
-verification framework, and supports temporal logic (LTL, PTLTL and MTL),
-clocks and voting algorithms.
+We are pleased to announce the release of Copilot 3.18.1, a stream-based DSL
+for writing and monitoring embedded C programs, with an emphasis on correctness
+and hard realtime requirements. Copilot is typically used as a high-level
+runtime verification framework, and supports temporal logic (LTL, PTLTL and
+MTL), clocks and voting algorithms.
 
 Among others, Copilot has been used at the Safety Critical Avionics Systems
 Branch of NASA Langley Research Center for monitoring test flights of drones.
 
-This release introduces compatibility with what4 versions up to 1.5.1, and
-replaces several functions in `copilot-core`. The second change is a breaking
-change: the functions replaced have been deprecated and new alternatives
-introduced instead.
+This release updates the C backend so that the code produced complies with
+MISRA C, and introduces testing infrastructure for `copilot-libraries` and
+`copilot-theorem`. We also , fix an issue with how arrays are generated
+internally when used as arguments to triggers, introduce compatibility with GHC
+9.6, and introduce a new function `forAll` to void clashes with the language
+keyword `forall`, which will be needed to be compatible with GHC >= 9.8 in
+future versions.
 
 Details are available
-[here](https://github.com/Copilot-Language/copilot/milestone/22?closed=1)
+[here](https://github.com/Copilot-Language/copilot/milestone/24?closed=1),
+[here](https://github.com/Copilot-Language/copilot/milestone/23?closed=1)
 and
-[here](https://github.com/Copilot-Language/copilot/releases/tag/v3.17).
+[here](https://github.com/Copilot-Language/copilot/releases/tag/v3.18.1).
 
 Current emphasis is on improving the codebase in terms of stability and test
 coverage, removing unnecessary dependencies, hiding internal definitions, and
-formatting the code to meet our new coding standards. Upcoming releases will
-focus on introducing tests for `copilot-theorem` and `copilot-libraries`. Users
-are encouraged to participate by opening issues and asking questions via our
+formatting the code to meet our new coding standards. We also plan to add
+extensions to the language to be able to updates arrays and structs. Users are
+encouraged to participate by opening issues and asking questions via our
 [github repo](https://github.com/copilot-language/copilot).
 
 ## License

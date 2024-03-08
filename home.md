@@ -1,28 +1,23 @@
 ## News
-**Release 3.18.1 -- 2024-01-07**
+**Release 3.19 -- 2024-03-07**
 
-We are pleased to announce the release of Copilot 3.18.1, a stream-based DSL
+We are pleased to announce the release of Copilot 3.19, a stream-based DSL
 for writing and monitoring embedded C programs, with an emphasis on correctness
 and hard realtime requirements. Copilot is typically used as a high-level
 runtime verification framework, and supports temporal logic (LTL, PTLTL and
 MTL), clocks and voting algorithms.
 
-Among others, Copilot has been used at the Safety Critical Avionics Systems
+Among others, Copilot is being used at the Safety Critical Avionics Systems
 Branch of NASA Langley Research Center for monitoring test flights of drones.
 
-This release updates the C backend so that the code produced complies with
-MISRA C, and introduces testing infrastructure for `copilot-libraries` and
-`copilot-theorem`. We also , fix an issue with how arrays are generated
-internally when used as arguments to triggers, introduce compatibility with GHC
-9.6, and introduce a new function `forAll` to void clashes with the language
-keyword `forall`, which will be needed to be compatible with GHC >= 9.8 in
-future versions.
+This release drastically increases the test coverage of `copilot-core`. We also
+remove deprecated functions from `copilot-core` that had been renamed in prior
+versions to comply with our style guide.
 
 Details are available
-[here](https://github.com/Copilot-Language/copilot/milestone/24?closed=1),
-[here](https://github.com/Copilot-Language/copilot/milestone/23?closed=1)
+[here](https://github.com/Copilot-Language/copilot/milestone/25?closed=1),
 and
-[here](https://github.com/Copilot-Language/copilot/releases/tag/v3.18.1).
+[here](https://github.com/Copilot-Language/copilot/releases/tag/v3.19).
 
 Current emphasis is on improving the codebase in terms of stability and test
 coverage, removing unnecessary dependencies, hiding internal definitions, and

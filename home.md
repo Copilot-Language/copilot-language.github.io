@@ -1,7 +1,7 @@
 ## News
-**Release 4.2 -- 2025-01-07**
+**Release 4.7.1 -- 2026-05-07**
 
-We are pleased to announce the release of Copilot 4.2, a stream-based DSL for
+We are pleased to announce the release of Copilot 4.7.1, a stream-based DSL for
 writing and monitoring embedded C programs, with an emphasis on correctness and
 hard realtime requirements. Copilot is typically used as a high-level runtime
 verification framework, and supports temporal logic (LTL, PTLTL and MTL),
@@ -10,45 +10,35 @@ clocks and voting algorithms.
 Among others, Copilot is being used at the Safety Critical Avionics Systems
 Branch of NASA Langley Research Center for monitoring test flights of drones.
 
-This release introduces several big improvements to Copilot:
+This release introduces several improvements to Copilot:
 
-- Specifications can now use the same handler for multiple monitors, provided
-  that the arguments to those handlers always have consistent types and arity.
-This simplifies the code that uses Copilot, since it's no longer necessary to
-create multiple boilerplate wrappers around the same handling routines.
+- Fix corner cases in the treatment of special floating point numbers in the
+  Bluespec backend and `copilot-theorem`.
 
-- The use of structs has been vastly simplified. Before, it was necessary to
-  define class instances for structs, whose implementations were, although
-repetitive, not intuitive especially for users unfamiliar with Haskell. In
-Copilot 4.2, it is now possible to define those methods automatically by
-relying on default method implementations that work well for most cases,
-although users retain the ability to customize those methods if desired.
+- Fix errors in examples in `copilot-theorem` that use Z3.
 
-- We have increased test coverage in `copilot-core`, reaching full coverage of
-  the public interface.
+- Add to `copilot-libraries` a module to perform sanity checks of Copilot
+  specifications.
 
-The interface of `copilot-core` has also been simplified, deprecating record
-fields of an existential type UExpr, which were largely unused outside of
-Copilot's internals.
+- Add to `copilot-libraries` a module to facilitate implementing state
+  machines.
+
+We expect those new modules to grow in the future.
 
 The new implementation is compatible with versions of GHC from 8.6 to 9.10, as
 well as with Stackage Nightly.
 
-This release has been made possible thanks to key submissions from Frank Dedden
-(@fdedden), Ryan Scott (@RyanGlScott), and Kyle Beechly (@kaBeech), the last of
-which is also a first-time contributor to the project. We are grateful to them
-for their timely contributions, especially during the holidays, and for making
-Copilot better every day. We also want to thank the attendees of Zurihac 2024
-for technical discussions that helped find the right solutions to some of the
-problems addressed by this release.
+This release has been made possible thanks to key submissions from Ryan Scott
+(Galois), and Chris Hathhorn (Galois). We are grateful to them for their timely
+contributions, and for making Copilot better every day.
 
 Details are available
-[here](https://github.com/Copilot-Language/copilot/milestone/30?closed=1),
+[here](https://github.com/Copilot-Language/copilot/milestone/38?closed=1),
 and
-[here](https://github.com/Copilot-Language/copilot/releases/tag/v4.2).
+[here](https://github.com/Copilot-Language/copilot/releases/tag/v4.7.1).
 
 As always, we're releasing exactly 2 months since the last release. Our next
-release is scheduled for Mar 7th, 2025.
+release is scheduled for Jul 7th, 2026.
 
 We want to remind the community that Copilot is now accepting code
 contributions from external participants again. Please see the discussions and
